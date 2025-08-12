@@ -1,16 +1,18 @@
 # PENSAMENTO.COMPUTACIONAL2025
 Projetos da aula de pensamento computacional de 2025.
 
-
 <header>Anna B. M. Baessa</header>
 
 
-<h1>MEIO AMBIENTE e SOLUÇÕES TECNOLÓGICAS</h1>
-<h2>sustentabilidade</h2>
+<h1>WALL-E EXISTE NA VIDA REAL?</h1>
+<h2>MEIO AMBIENTE e SOLUÇÕES TECNOLÓGICAS</h2>
 
 <p><b>Você já se perguntou um dia até onde o planeta Terra vai chegar?</b> Bom, ainda que discutida com menos intensidade, essa é uma importante e curiosa questão. A Terra, do ponto de vista científico, tem um ciclo de vida que terminará em bilhões de anos, quando o Sol envelhecer e evoluir. Até lá, ela continuará mudando, influenciada por processos naturais e ações humanas, tais como a tecnologia. A compreensão desses processos nos ajuda a entender até onde ela pode chegar e como podemos preservar seu ambiente no presente. Para entendermos melhor sobre o assunto no qual estamos lidando, veja o breve vídeo abaixo.</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zkQu0QNcWjA?si=DIKfAi3Ozea1Wxgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<p>Esse é um exemplo de coisas que acontecem no nosso dia a dia.</p>
+<p>Na sociedade de hoje, ainda que pareça ser algo fútil para alguns indivíduos, a tecnologia muitas vezes contribui para o agravamento dos problemas ambientais. A poluição causada por indústrias, o descarte irresponsável de lixo eletrônico, o aumento do consumo de bens materiais e o desperdício de recursos naturais são exemplos de como a tecnologia, em vez de ajudar, pode estar acelerando a destruição do planeta. Muitas vezes, ela é usada de forma irresponsável, sem pensar nas consequências a longo prazo, levando a uma situação cada vez mais grave para o meio ambiente.</p>
+<p><b>Mas o planeta Terra vai ser domido por poluição assim como no filme WALL-E?</b> Eu diria que assim como no filme WALL-E, onde a Terra ficou coberta de lixo por causa do consumismo desenfreado e da negligência da humanidade, a nossa realidade também corre esse risco se não mudarmos nossos hábitos. No filme, os humanos se tornaram totalmente dependentes da tecnologia e do consumo, deixando o planeta praticamente inabitável. Essa história serve como um alerta de que, se continuarmos nesse ritmo, podemos acabar deixando o planeta tão destruído que precisaremos de uma grande limpeza e mudança de comportamento para que a vida possa voltar a florescer. Portanto, o filme é uma espécie de espelho futurista do que pode acontecer se não cuidarmos do nosso planeta hoje.</p>
+<p>Por isso, devemos usar a tecnologia ao nosso favor de maneira responsável e consciente. Em vez de apenas consumir e gerar lixo, podemos utilizá-la para promover a sustentabilidade, como desenvolver energias renováveis, criar soluções de reciclagem mais eficientes e disseminar informações sobre a preservação do meio ambiente. A tecnologia pode nos ajudar a monitorar e reduzir a quantidade de poluição, otimizar o uso de recursos naturais e criar produtos mais duráveis e ecológicos. Assim como no filme WALL-E, onde a tecnologia poderia ser uma grande aliada na construção de um planeta mais limpo e saudável, no mundo real ela só terá esse efeito se for usada com sabedoria, ética e um compromisso genuíno com o meio ambiente. Dessa forma, podemos garantir um futuro melhor para as próximas gerações, evitando que a Terra se torne um lugar inabitável, e promovendo uma mudança de comportamento que valorize a natureza e o equilíbrio ecológico. A tecnologia, quando bem aplicada, é uma ferramenta poderosa para transformar nossa relação com o planeta e construir um mundo mais sustentável para todos.</p>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bpqVe3GvUZU?si=zUihOaSGF9GmO4Ny" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
