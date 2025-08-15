@@ -1,4 +1,4 @@
-# PENSAMENTO.COMPUTACIONAL2025
+# PROJETO.PAGINA-WEB
 Projetos da aula de pensamento computacional de 2025.
 
 <header>Anna B. M. Baessa</header>
