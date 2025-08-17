@@ -1,9 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <title>WALL-E: A Terra Que Criamos.</title>
+<meta charset="UTF-8">
+<title>WALL-E: A Terra Que Criamos</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b0c0f; /* fundo mais escuro pra destacar glow */
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* Container da imagem */
+#image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Imagem que ocupa toda a largura */
+#background {
+    width: 100%;
+    display: block;
+    transition: opacity 1s ease; /* suavização do fade */
+}
+
+/* Classe para desaparecer */
+.fade-out {
+    opacity: 0;
+}
+
+/* Botão sobre a imagem */
+button {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 2;
+    box-shadow: 0 0 20px #ffcc00;
+    animation: pulse 2s infinite;
+}
+
+button:hover {
+    background-color: #e6b800;
+    transform: scale(1.05);
+}
+
+/* Conteúdo do site - escondido inicialmente */
+#conteudo {
+    display: none;
+    padding: 50px;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #111;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 40px rgba(0, 255, 0, 0.3);
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+/* Títulos com efeito glow */
+#conteudo h1 {
+    color: #a8ff60;
+    text-align: center;
+    text-shadow: 0 0 5px #a8ff60, 0 0 10px #a8ff60, 0 0 20px #00ff00;
+}
+
+#conteudo h2 {
+    color: #7fff7f;
+    text-shadow: 0 0 3px #7fff7f, 0 0 8px #00ff00;
+    margin-top: 40px;
+}
+
+#conteudo p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#conteudo iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#conteudo img {
+    max-width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Links */
+#conteudo a {
+    color: #a8ff60;
+    text-decoration: none;
+}
+
+#conteudo a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé opcional */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+    font-size: 14px;
+}
+
+/* ===== RESPONSIVO ===== */
+@media screen and (max-width: 768px) {
+    #conteudo {
+        padding: 30px;
+        margin: 30px auto;
+    }
+    button {
+        padding: 15px 30px;
+        font-size: 18px;
+    }
+    #conteudo iframe {
+        height: 250px;
+    }
+}
+
+/* ===== ANIMAÇÕES ===== */
+@keyframes pulse {
+    0% { box-shadow: 0 0 10px #ffcc00; }
+    50% { box-shadow: 0 0 25px #ffcc00; }
+    100% { box-shadow: 0 0 10px #ffcc00; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+</style>
 </head>
 <body>
+
+<div id="image-container">
+    <img id="background" src="ATerraQueCriamos.jpg" alt="WALL-E: A Terra Que Criamos">
+    <button onclick="mostrarConteudo()">Assista o trailer</button>
+</div>
+
+<div id="conteudo">
+<!-- Colei TODO o seu HTML original aqui -->
 <h1>WALL-E: A Terra Que Criamos.</h1>
 <p><b>Não é cinema — o legado que deixamos é real.</b></p>
 <hr>
@@ -13,7 +162,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WfGMYdalClU?si=xelzMCA2ZjPieyKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br>
 <br>
-<p>Hoje em dia, com todos os avanços tecnológicos, é fácil pensar que a tecnologia traz somente benefícios, mas não é bem assim. Indústrias poluindo sem dó, lixo eletrônico jogado fora como se não valesse nada, consumo exagerado e desperdício de recursos naturais… tudo isso está acelerando a destruição do planeta, e o mais irônico: as ordens são nossas. Muitas vezes, a tecnologia é usada de forma irresponsável, sem pensar nas consequências futuras, levando a uma situação cada vez mais grave e, o resultado? Um meio ambiente cada vez mais em crise.</p>
+<p>Hoje em dia, com todos os avanços tecnológicos, é fácil pensar que a tecnologia traz somente benefícios, mas não é bem assim. Indústrias poluindo sem dó, lixo eletrônico jogado fora como se não valesse nada, consumo exagerado e desperdício de recursos naturais… tudo isso está acelerando a destruição do planeta, e o mais irônico: as ordens são nossas. Muitas vezes, a tecnologia é usada de forma irresponsável, sem pensar nas consequências futuras, levando a uma situação cada vez mais grave, e o resultado? Um meio ambiente cada vez mais em crise.</p>
 <img src="https://img.freepik.com/vetores-premium/industria-fabril-poluindo-a-cena-da-agua_18591-64080.jpg" alt="fabrica">
 <br>
 <hr>
@@ -40,7 +189,7 @@
 <p>Você deve pensar agora que a tecnologia só serve para nos distrair ou nos deixar dependentes de telas, mas pense de novo. A mesma inteligência humana que cria redes sociais e videogames também pode criar soluções para salvar a Terra, se tivermos capacidade para isso.Olhe ao redor: painéis solares que geram energia limpa, turbinas eólicas que transformam vento em eletricidade, drones que monitoram desmatamento e rios poluídos, aplicativos que ajudam a reduzir o desperdício e até robôs que limpem o lixo nos oceanos. Tudo isso existe agora, e tudo isso depende de nós para funcionar de verdade.</p>
 <hr>
 <h2>O planeta não precisa de discursos, precisa de ação.</h2>
-<p>Vamos ser honestos: você separa seu lixo? Evita desperdício de água? Pensa duas vezes antes de comprar algo que não precisa? Ou espera que “alguém lá em cima” resolva o problema enquanto continua vivendo como se os recursos fossem infinitos? O planeta não vai esperar. Florestas estão sendo derrubadas agora, oceanos estão sendo sufocados por plástico agora, espécies estão desaparecendo agora. E sabe o que é pior? Tudo isso tem solução, mas depende de escolhas que você pode começar a fazer hoje. Reduzir, reutilizar, reciclar, cobrar mudanças e mudar seus hábitos é muito mais poderoso do que fingir que nada está acontecendo.</p>
+<p>Vamos ser honestos: você separa seu lixo? Evita desperdício de água? Pensa duas vezes antes de comprar algo que não precisa? Ou espera que “alguém lá em cima” resolva o problema enquanto continua vivendo como se os recursos fossem infinitos? O planeta não vai esperar. Florestas estão sendo derrubadas agora, oceanos estão sendo sufocados por plástico agora, espécies estão desaparecendo agora. E sabe o que é pior? Tudo isso tem solução, mas depende de escolhas que você pode começar a fazer hoje. Reduzir, reutilizar, reciclar, cobrar mudanças e mudar seus hábitos é muito mais poderoso do que fingir que nada esteja acontecendo.</p>
 <p>Não adianta aplaudir o WALL-E no cinema e continuar jogando lixo na rua. O futuro será verde ou não será? Isso só depende de nós.</p>
 <p>Entretanto, entenda: a tecnologia sem consciência é apenas mais um problema. Se continuarmos ignorando as consequências do nosso consumo, todos esses avanços serão inúteis. O ponto não é só criar soluções, é usar a inteligência humana para agir, não para procrastinar, comprar mais coisas que não precisamos ou ignorar o desastre acontecendo ao nosso redor.</p>
 <p>Você ainda acha que não pode fazer nada? Cada escolha conta: separar o lixo, economizar energia, apoiar projetos sustentáveis, consumir com responsabilidade. O futuro da Terra não está nas mãos de empresas ou governos sozinhos — está nas nossas mãos, com a tecnologia como aliada ou como inimiga.</p>
@@ -50,5 +199,26 @@
 <img src="https://static.todamateria.com.br/upload/pl/an/planetaterra-cke.jpg" alt="Planeta Terra" width="600">
 <p>Olhe para a Terra como ela era na sua primeira foto, inteira, coberta por calotas brancas e nuvens densas que funcionavam como escudos naturais, protegendo oceanos, rios, florestas e a própria vida; agora veja as imagens mais recentes, com gelo derretido, nuvens dispersas e sinais claros de desgaste, e perceba que cada mudança visível não é obra do tempo, mas consequência direta do descuido humano, do consumo desenfreado, da poluição constante e da negligência com os ecossistemas; continuamos vivendo como se os recursos fossem infinitos, como se o planeta pudesse aguentar tudo, enquanto a tecnologia, que poderia ser nossa maior aliada, é muitas vezes usada apenas para distração, lazer e conveniência pessoal, e não para reconstruir, monitorar ou restaurar o que já foi destruído; poderíamos ter sistemas que limpam rios e mares, filtram o ar, transformam resíduos em novos recursos, cidades inteligentes que economizam energia, energias limpas substituindo combustíveis fósseis, sensores e satélites que detectam desmatamento e mudanças climáticas em tempo real, softwares que otimizam indústrias e agricultura sustentável que preserva solos e reduz pesticidas, mas seguimos adiando escolhas, ignorando sinais e vivendo como se nada estivesse acontecendo, achando que haverá um replay ou botão de reset, quando na realidade cada ação negligente deixa marcas permanentes; a pergunta que fica é direta e brutal: vamos continuar permitindo que a Terra se desgaste diante dos nossos olhos, que calotas desapareçam, rios sequem, florestas desapareçam e espécies se extinguam, ou vamos assumir nossa responsabilidade, usar a tecnologia com consciência, agir com urgência e finalmente reconstruir, recuperar e proteger, garantindo que o futuro seja de vida, saúde e esperança, e não de destruição irreversível que nenhum filme, nenhuma ficção e nenhuma desculpa serão capazes de consertar?</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lc6W-wKPNnc?si=WrVrBLP_Zl_E1o1R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+<script>
+function mostrarConteudo() {
+    const conteudo = document.getElementById('conteudo');
+    const container = document.getElementById('image-container');
+    const img = document.getElementById('background');
+
+    // Aplica fade na imagem
+    img.classList.add('fade-out');
+
+    // Depois de 1s (tempo da animação), remove capa + botão
+    setTimeout(() => {
+        container.style.display = 'none';
+        conteudo.style.display = 'block';
+        conteudo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 1000);
+}
+</script>
+
 </body>
 </html>
