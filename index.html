@@ -7,31 +7,31 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #0b0c0f; /* fundo mais escuro pra destacar glow */
+    background-color: #0b0c0f; 
     color: #fff;
     overflow-x: hidden;
 }
 
-/* Container da imagem */
+
 #image-container {
     position: relative;
     width: 100%;
     overflow: hidden;
 }
 
-/* Imagem que ocupa toda a largura */
+
 #background {
     width: 100%;
     display: block;
-    transition: opacity 1s ease; /* suavização do fade */
+    transition: opacity 1s ease; 
 }
 
-/* Classe para desaparecer */
+
 .fade-out {
     opacity: 0;
 }
 
-/* Botão sobre a imagem */
+
 button {
     position: absolute;
     top: 80px;
@@ -52,7 +52,7 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* Conteúdo do site - escondido inicialmente */
+
 #conteudo {
     display: none;
     padding: 50px;
@@ -66,7 +66,7 @@ button:hover {
     animation: fadeIn 1s forwards;
 }
 
-/* Títulos com efeito glow */
+
 #conteudo h1 {
     font-family:Times New Roman, sans-serif;
     color: #a8ff60;
@@ -101,7 +101,7 @@ button:hover {
     border-radius: 10px;
 }
 
-/* Links */
+
 #conteudo a {
     color: #a8ff60;
     text-decoration: none;
@@ -111,7 +111,7 @@ button:hover {
     text-decoration: underline;
 }
 
-/* Rodapé opcional */
+
 footer {
     text-align: center;
     padding: 20px;
@@ -119,7 +119,7 @@ footer {
     font-size: 14px;
 }
 
-/* ===== RESPONSIVO ===== */
+
 @media screen and (max-width: 768px) {
     #conteudo {
         padding: 30px;
@@ -134,7 +134,7 @@ footer {
     }
 }
 
-/* ===== ANIMAÇÕES ===== */
+
 @keyframes pulse {
     0% { box-shadow: 0 0 10px #ffcc00; }
     50% { box-shadow: 0 0 25px #ffcc00; }
@@ -155,7 +155,7 @@ footer {
 </div>
 
 <div id="conteudo">
-<!-- Colei TODO o seu HTML original aqui -->
+
 <h1>WALL-E: A Terra Que Criamos.</h1>
 <p><b>Não é cinema — o legado que deixamos é real.</b></p>
 <hr>
@@ -217,14 +217,14 @@ function mostrarConteudo() {
     const img = document.getElementById('background');
     const logo = document.getElementById('logo-container');
 
-    // Aplica fade na imagem
+   
     img.classList.add('fade-out');
 
-    // Depois de 1s (tempo da animação), remove capa + botão
+   
     setTimeout(() => {
         container.style.display = 'none';
         conteudo.style.display = 'block';
-        logo.style.display = 'flex'; // mostra a logo junto
+        logo.style.display = 'flex'; 
         conteudo.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }, 1000);
 }
